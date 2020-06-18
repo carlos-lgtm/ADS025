@@ -1,0 +1,41 @@
+crie o modelo NOSQL chav-valor para os seguintes modelos relacionadosa
+
+
+a)
+
+{id "1" , projeto: (numero do projeto: 00 nome_projeto: projetocar" data_inico projeto: "20/02/2022", numero gerente "345",)}
+{id "2" ,  projeto_empregado:{numero_projeto: 00, numero_empregado 145, horas_horas_trabalhadas projeto: "06: 00horas")}
+{id "3" , atribuido: (numero_programa:145, nome_programa: carlos", numero_depto: "232")}
+{id "4" , gerente: (numero 1510, nome_gerente: "lucas" }]
+{id "5" , departamento: (numero_depto: 1530, numero depto: "deposito", nome_gerente:"julio")}
+
+b)
+
+{id "1", pedido (cod_pedido 0200, dat_emissão: "20/02/2019" , cod_fornecedor: "5706", vlr_total_pedido: "R$  200,00")}
+{id "2" , pedido_material (cod_pediddo 2020, cod_material: "6020" , qtd_pedido: "10", vlr_total_matricula: "R $ 1000,00")}
+{id "3" , material (cod_material 253, dsc_material: "10%", vlr_unitario: "R $ 55,00")}
+{id "4" . fornecedor (cod_fornecedor 1020, nom_fornecedor: "carlos", end_fornecedor: "qnr 01 conj i casa 9")}
+
+c)
+
+{id "1" , turma (codigo_aluno 10, cod_curso 8520, data_matricula)}
+{id "2"  , aluno (codigo_aluno 11, nome_açuno: "léo", emaila_aluno: "léo@gmail.com.br", fone_contato: (61) 986302510")}
+{id "3" , curso (cod_curso 12, nome_curso: "RH")}
+
+d)
+
+{id "1" , consulta: (num_paciente 756, data_consulta: "12/05/2019" , cod_medico 7896, dsc_diagnostico  "infarto")}
+{id "2" , paciente: ( num_paciente 755, nome_paciente: "carlos" )}
+{id "3" , medico: (cod_medico 7425, nome_medico: "caze": , cod_especialidade:"20151")}
+{id "4" , especialidade: (cod_especialidade 201345, dsc_especialidade: "cardiologista")}
+
+e)
+
+{id "1" , emprestimo: (num_matricula 2013, num_isbn 7852, dat_emprestimo "02/05/2020" , data_devolução: "02/02/2021)}
+{id "2" , aluno: (num_matricula 7021, nom_aluno: "lelis")}
+{id "3" , livro: (num_isbn 13520, tit_livro: "2" laranja mecanica", num_pagina 120, cod_editoral: "159")}
+{id "4" , editora: (cod_editora 1544, nom_editora 158, nom_editora: "lup")}
+
+
+
+
