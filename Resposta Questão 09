@@ -1,0 +1,69 @@
+1:crie o modelo NoSQL orientado a colunas para os seguintes modelos relacionados
+
+a) 
+projeto
+
+
+{id "1" , tipo: "projeto" , valor: (numero_projeto:01, nome_projeto: "motorclub" , data_inicio: 20/03/2020":, numero_gerente:1233)}
+
+{id "2" , tipo "projeto_empregado" , valor: (numero_projeto: 20123, numero_empregado 587, horas_trabalhada_projeto: "24horas")}
+
+(id:"3" , tipo: empregado", valor: (numero_empregado:7895, nome_empregado: carlos, numero_depto: 5789)}
+
+{id "4" , tipo "gerente" , valor: (numero_gerente: 58715, nome_gerente: "caze")}
+
+{id "5", tipo: "depertamento" , valor: (numero_depto: 4258, nome_depto: "lucas")}
+
+b)
+pedido
+
+{id: "1", tipo: "pedido", valor: (cod_pedido: 875, data_emissão: "12/05/2018", cd_fornecedor: 5685, vlr_total_pedido " R $ 320)}
+
+{id: "2" tipo: "pedido_material", valor: (cod_pedido:752, cod_material: 1420, qtd_pedido 02, vlr_total_material: "R $ 100")}
+
+{id: "3", tipo: "material", valor: (cod_material: 789. dsc_material: "10%", numero de artigo: "R $ 350)}
+
+{id: "4", tipo " fornecedor", valor: (cod_fornecedor: 587, nom fornecedor: "lucas", end_fornecedor: "qnr 01 conj i casa 09")}
+
+
+c)
+turma
+
+{id:"1", tipo: "turma", valor: (codigo_aluno: 854, cod_curso: 896, data_matricula:"05/02/2013")}
+
+{id: "2", tipo: "aluno" , valor (codgo_aluno: 003, nome_aluno^: "lucas", emai_aluno "carloskakaedu266.com", fone_contato: "86246132"
+
+{id: "3" , tipo: "curso", valor: (cod_curso: 500, nome_curso: "ADS")}
+
+d)
+consulta
+
+{id:"1", tipo: "consulta"", valor: (numero_aciente: 32, data_consulta: "20/02/2020", cod_medico: 852, dsc_diagnostico: "lupos")}
+
+{id: "2", tipo: "paciente", valor: (numero_aciente:03, nome_paciente: "lucas")}
+
+{id: "3", tipo: "medico" , valor: (cod_medico:610, nome_medico: "rafael", cod_especializada: 254)}
+
+{id: "4" tipo: "especialidade", valor: (cod_especialidade:789, dsc_especialidade: 521)}
+
+e)
+
+Emprestimo
+
+{id: "1" , tipo: "emprestimo", valor: (num_matricula:855, num_isbn:158, dat_emprestimo: 20/05/2019", dat_devolução 20/05/2020)}
+
+{id: "2" tipo: "aluno", valor: (num_matricula1020, nom_aluno:"caze")}
+
+{id:"3" tipo: "livro", valor (num_isbn: 485, tit_livro: " os quatro" "num_paginas: 52, cond_editora:985
+
+{id; "4" tipo: "editora", valor: (cod_editora: 8952, nom_editora: "dub")}
+
+
+
+
+
+
+
+
+
+
