@@ -1,0 +1,131 @@
+	a)
+ 
+ 
+db.createCollection ("projeto", {
+ 
+    validador: {
+ 
+    $ jsonSchema: {
+ 
+    bsonType: "objeto",
+ 
+    obrigatório: ["numero_projeto, nome_projeto", "data_inicio_projeto"],
+ 
+    propriedades: {
+ 
+        "numero_projeto": {bsonType: "int", mínimo: 0},
+ 
+        "nome_projeto": {bsonType: "string", maxLength: 100}
+ 
+                        "data_inicio_projeto": {bsonType: "date"}
+ 
+    }
+ 
+}
+ 
+            })
+ 
+db.createCollection ("gerente": {
+ 
+    bsonType: "objeto",
+ 
+    obrigatório: ["numero_gerente, nome_gerente"],
+ 
+    propriedades: {
+ 
+        "numero_gerente": {bsonType: "int" mínimo: 0},
+ 
+        "nome_gerente": {bsonType: "string", maxLength: 100}
+ 
+    }
+ 
+})
+ 
+db.createCollection ("projeto_empregado": {
+ 
+    bsonType: "objeto",
+ 
+    obrigatório: ["numero_projeto, numero_empregado, horas_trabalhadas_projeto"],
+ 
+    propriedades: {
+ 
+        "numero_projeto": {bsonType: "int" mínimo: 0},
+ 
+        "numero_empregado": {bsonType: "int", mínimo: 0}
+ 
+            "horas_trabalhadas_projeto": {bsonType: "string", maxLength: 10}
+ 
+    }
+ 
+})
+ 
+db.createCollection ("empregado": {
+ 
+    bsonType: "objeto",
+ 
+    obrigatório: ["numero_empregado, nome_empregado, numero_depto"],
+ 
+    propriedades: {
+ 
+        "numero_empregado": {bsonType: "int" mínimo: 0},
+ 
+        "nome_empregado": {bsonType: "string", maxLength: 100}
+ 
+        "numero_depto": {bsonType: "int", maxLength: 100}
+ 
+    }
+ 
+})
+ 
+db.createCollection ("fornecedor": {
+ 
+    bsonType: "objeto",
+ 
+    necessário: ["cod_fornecedor, nom_fornecedor, end_fornecedor"],
+ 
+    propriedades: {
+ 
+        "cod_fornecedor": {bsonType: "int" mínimo: 0},
+ 
+        "nom_fornecedor": {bsonType: "string", maxLength: 100}
+ 
+        "end_fornecedor": {bsonType: "string", maxLength: 100}
+ 
+    }
+ 
+})
+ 
+ 
+ 
+ 
+b)
+ 
+ 
+db.createCollection ("pedido", {
+ 
+    validador: { 
+ 
+        $ jsonSchema: { 
+ 
+            bsonType: "objeto",
+ 
+            necessário: ["cod_pedido, dat_emissao, cod_fornecedor, vlr_total_pedido"],
+ 
+            propriedades: {
+ 
+                "cod_pedido": {bsonType: "int", mínimo: 0},
+ 
+                "dat_emissao": {bsonType: "date"}
+ 
+                    "cod_fornecedor": {bsonType: "int", mínimo: 0},
+ 
+                "vlr_total_pedido": {bsonType: "string", maxLength: 100}
+ 
+            }
+ 
+        }
+ 
+    })
+ 
+db.createCollection ("fornecedor": {
+...
