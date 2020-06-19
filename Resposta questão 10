@@ -1,0 +1,131 @@
+1. Crie o modelo NoSQL orientado a documentos para os seguintes modelos relacionados.
+  
+a)
+{ 
+	Projeto: {
+		id: 1
+ 
+			numero_projeto: 32,
+ 
+				nome_projeto: "luq"
+ 
+					data_inicio_projeto: "22/09/2019"
+ 
+						numero_gerente: 232
+ 
+	}
+ 
+	Projeto_Empregado: {
+		id: 2
+ 
+			numero_projeto: 255, 
+ 
+				numero_empregado: 320,
+ 
+					horas_trabalhadas_projeto "12horas":
+ 
+	}
+	Empregado: {
+		id: 3
+ 
+			numero_empregado: 265, 
+ 
+				nome_empregado: 4806, 
+					
+					numero_depto: 2269
+	}
+	Gerente: {
+		id: 4
+ 
+			numero_gerente 538, 
+ 
+				nome_gerente: "Carlos"
+	}
+}
+ 
+ 
+b)
+{
+	Pedido {
+		id: 1,
+			cod_pedido: 505, 
+ 
+				dat_emissao: "05/06/2019", 
+ 
+					cod_fornecedor: 333, 
+ 
+						vlr_total_pedido: "R $ 3520")
+ 
+	}
+ 
+	Pedido_Material {
+		id: 2,
+			cod_pedido: 556,
+ 
+				cod_material: 557,
+ 
+					 qtd_pedido: 554; 
+ 
+					 	vlr_total_material: "R $ 500"
+	}
+ 
+	Material {
+		id: 3,
+ 
+			cod_material: 5259, 
+ 
+				dsc_material: 500, 
+ 
+					vlr_unitario: "R $ 250"
+	}
+ 
+	Fornecedor {
+		id: 4,
+			
+			cod_fornecedor: 226, 
+				
+				nom_fornecedor: 252,
+	
+					end_fornecedor: "QNr 01 conjunto i na casa 09"
+	}
+}
+ 
+ 
+c)
+{
+	Turma {
+		id: 1
+			codigo_aluno: 2526, 
+ 
+				cod_curso: 3022, 
+ 
+					data_matricula: "30/05/2019"
+	}
+ 
+	Aluno {
+		id: 2
+ 
+			codigo_aluno: 322, 
+ 
+				nome_aluno: "carlos"
+ 
+					email_aluno: "carloskakaedu@gmail.com"
+ 
+						fone_contato: "86246130"
+	}
+ 
+	Curso {
+		id: 3
+ 
+			cod_curso: 222, 
+ 
+				nome_curso: "rede"
+	}
+}
+ 
+d)
+{
+	Consulta {
+		id: 1
+ 
+			num_paciente: 32
